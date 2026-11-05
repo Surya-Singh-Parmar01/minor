@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+numpy
+pandas
+scikit-learn
+joblib
+pillow
+torch
+torchvision
+transformers
+datasets
+praat-parselmouth
+soundfile
