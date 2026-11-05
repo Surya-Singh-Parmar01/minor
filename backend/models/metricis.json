@@ -1,0 +1,27 @@
+{
+  "voice_pd": {
+    "dataset": "UCI Oxford Parkinson's Disease Detection (Little et al., 2008)",
+    "recordings": 195,
+    "subjects": 32,
+    "evaluation": "4-fold cross-validation grouped by subject",
+    "accuracy": 0.621,
+    "auroc": 0.739,
+    "sensitivity": 0.551,
+    "specificity": 0.833,
+    "threshold": 0.753
+  },
+  "mri_ad": {
+    "dataset": "Falah/Alzheimer_MRI (Hugging Face)",
+    "backbone": "microsoft/resnet-18",
+    "train_images": 5120,
+    "test_images": 1280,
+    "accuracy_4class": 0.69,
+    "auroc_demented_vs_not": 0.851,
+    "per_class": {
+      "Mild_Demented": 0.571,
+      "Moderate_Demented": 0.828,
+      "Non_Demented": 0.762,
+      "Very_Mild_Demented": 0.642
+    }
+  }
+}
