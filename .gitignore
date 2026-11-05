@@ -1,0 +1,37 @@
+
+# Claude / AI tools
+.claude/
+
+# Node.js / Next.js
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Generated data and reports
+report/
+backend/data/
+backend/train.log
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
